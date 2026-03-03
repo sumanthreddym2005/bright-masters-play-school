@@ -7,13 +7,8 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <>
-      <Hero />
-      <Trust />
-      <Programs />
-      <Facilities />
-      <Admissions />
-      <Contact />
-    </>
+    <main>
+      <h1>Bright Masters Play School</h1>
+    </main>
   );
 }
