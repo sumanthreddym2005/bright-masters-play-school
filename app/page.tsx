@@ -6,9 +6,5 @@ import Admissions from "@/components/Admissions";
 import Contact from "@/components/Contact";
 
 export default function Home() {
-  return (
-    <main>
-      <h1>Bright Masters Play School</h1>
-    </main>
-  );
+  return <h1>Bright Masters Play School</h1>;
 }
