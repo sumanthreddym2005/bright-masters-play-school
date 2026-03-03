@@ -6,5 +6,14 @@ import Admissions from "@/components/Admissions";
 import Contact from "@/components/Contact";
 
 export default function Home() {
-  return <h1>Bright Masters Play School</h1>;
+  return (
+    <>
+      <Hero />
+      <Programs />
+      <Facilities />
+      <Trust />
+      <Admissions />
+      <Contact />
+    </>
+  );
 }
